@@ -134,3 +134,11 @@ see script js file for more */
     }
 
 }
+
+/* fix overflow on small screens */
+@media (max-width:600px) {
+    .authContainer {
+        width:250px;
+        margin-left:10px;
+    }
+}
