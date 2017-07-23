@@ -135,12 +135,10 @@ see script js file for more */
 
 }
 
-/* fix overflow on internet explorer small screens */
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-@media (max-width:600px) {
+/* fix overflow on small screens */
+@media (max-width:400px) {
     .authContainer {
         width:250px;
         margin-left:10px;
     }
-}
 }
